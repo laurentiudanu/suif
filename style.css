@@ -102,9 +102,9 @@ fieldset {border: 1px solid #c0c0c0; padding: 16px;}
 }
 
 body {
-  font: 16px/32px 'Roboto Mono', monospace;
-  background-color: #131113;
-  color: #776977;
+  font: 16px/24px 'Roboto Mono', monospace;
+  background-color: #1B181B;
+  color: #AB9BAB;
   overflow-x: hidden;
   -webkit-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
@@ -130,3 +130,24 @@ body {
   -o-animation-delay: 900ms;
   animation-delay: 900ms;
 }
+p {margin-bottom: 24px;}
+  strong {color: #F7F3F7;}
+  a {color: #516AEC;}
+.notice-secondary {background-color: #8CA68C; color: #131113}
+.notice-action-required {background-color: #D22D72; color: #131113}
+.notice-error {background-color: #CA402B; color: #131113}
+.notice-success {background-color: #379A37; color: #131113}
+.inline-note {color: #776977;}
+.inline-notice {color: #C3C322;}
+
+.inline {
+  display: inline-block;
+  padding: 16px;
+  margin: 0;
+  line-height: 16px;
+  border: 1px solid transparent;
+}
+.inline-cancel {border-color: #D22D72; color: #D22D72;}
+  .inline-cancel:hover {background-color: #D22D72; color: #131113;}
+.inline-commit {border-color: #379A37; color: #379A37;}
+  .inline-commit:hover {background-color: #379A37; color: #131113;}
