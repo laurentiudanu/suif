@@ -1,0 +1,132 @@
+html, body {min-height: 100vh;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, main {display: block;}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, main {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+ol, ul {list-style:none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,  q:before, q:after {content:''; content:none;}
+del {text-decoration: line-through;}
+svg:not(:root) {overflow: hidden;}
+abbr[title], dfn[title] {border-bottom: 1px dotted; cursor: help;}
+table {width: 100%; border-collapse: collapse; border-spacing: 0; empty-cells: show; table-layout: fixed;}
+input, select {vertical-align: middle;}
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
+button, input, select, textarea {margin: 0; font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;}
+textarea {resize: none;}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {-webkit-appearance: button; cursor: pointer;}
+button[disabled], html input[disabled] {cursor: default;}
+input[type="checkbox"], input[type="radio"] {box-sizing: border-box; padding: 0; *height: 13px; *width: 13px;}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {-webkit-appearance: none;}
+img {display: block; max-width: 100%; height: auto !important;}
+td img {vertical-align: top;}
+address {display: inline;}
+code, kbd, pre, samp {font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 14px;}
+pre {white-space: pre; white-space: pre-wrap; word-wrap: break-word;}
+a:hover, a:active {outline: none;}
+a, a:hover, a:visited {text-decoration: none;}
+iframe {display: block; max-width: 100%;}
+fieldset {border: 1px solid #c0c0c0; padding: 16px;}
+::-webkit-input-placeholder {color: #000; font-family: "Helvetica", Arial, sans-serif;}
+  :focus::-webkit-input-placeholder {opacity: 0;}
+:-moz-placeholder {color: #000; font-family: "Helvetica", Arial, sans-serif;}
+  :focus:-moz-placeholder {opacity: 0;}
+::-moz-placeholder {color: #000; font-family: "Helvetica", Arial, sans-serif;}
+  :focus::-moz-placeholder {opacity: 0;}
+:-ms-input-placeholder {color: #000; font-family: "Helvetica", Arial, sans-serif;}
+  :focus:-ms-input-placeholder {opacity: 0;}
+*, *:before, *:after {-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+.cf:before, .cf:after {content:""; display:table;} .cf:after {clear:both;}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v4/hMqPNLsu_dywMa4C_DEpYyYE0-AqJ3nfInTTiDXDjU4.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(https://fonts.gstatic.com/s/robotomono/v4/hMqPNLsu_dywMa4C_DEpY44P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Mono Bold'), local('RobotoMono-Bold'), url(https://fonts.gstatic.com/s/robotomono/v4/N4duVc9C58uwPiY8_59Fz-jkDdvhIIFj_YMdgqpnSB0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Roboto Mono Bold'), local('RobotoMono-Bold'), url(https://fonts.gstatic.com/s/robotomono/v4/N4duVc9C58uwPiY8_59Fz4lIZu-HDpmDIZMigmsroc4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Mono Italic'), local('RobotoMono-Italic'), url(https://fonts.gstatic.com/s/robotomono/v4/mE0EPT_93c7f86_WQexR3E_0lycXMw8PhobHtu2Qgco.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Roboto Mono Italic'), local('RobotoMono-Italic'), url(https://fonts.gstatic.com/s/robotomono/v4/mE0EPT_93c7f86_WQexR3Mu2Q0OS-KeTAWjgkS85mDg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Mono Bold Italic'), local('RobotoMono-BoldItalic'), url(https://fonts.gstatic.com/s/robotomono/v4/1OsMuiiO6FCF2x67vzDKA_D-tiQYKMdw_jk-5jaY04o.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Roboto Mono Bold Italic'), local('RobotoMono-BoldItalic'), url(https://fonts.gstatic.com/s/robotomono/v4/1OsMuiiO6FCF2x67vzDKA49ObOXPY1wUIXqKtDjSdsY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+body {
+  font: 16px/32px 'Roboto Mono', monospace;
+  background-color: #131113;
+  color: #776977;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+.delay-500 {
+  -webkit-animation-delay: 500ms;
+  -moz-animation-delay: 500ms;
+  -o-animation-delay: 500ms;
+  animation-delay: 500ms;
+}
+.delay-800 {
+  -webkit-animation-delay: 800ms;
+  -moz-animation-delay: 800ms;
+  -o-animation-delay: 800ms;
+  animation-delay: 800ms;
+}
+.delay-900 {
+  -webkit-animation-delay: 900ms;
+  -moz-animation-delay: 900ms;
+  -o-animation-delay: 900ms;
+  animation-delay: 900ms;
+}
