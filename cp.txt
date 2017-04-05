@@ -1,5 +1,17 @@
 bg #1B181B
-success #379A37
-notice #BB8A35 (#C3C322)
-link #516AEC
-system message #159393 (#AD2BEE)
+
+
+#ff6f6f
+#fa99d6
+#ff9b3b
+
+What defines a good design
+- simple and natural dialogue (speaking the users language not the designer, programmer or computer language)
+- minimize the user's memory load (it's natural for humans to forget)
+- use constructive error messages
+- make clear call to actions and exits
+- give feedback for actions
+- preventing analysis paralysis by setting a finite number of choices in small iterative steps (design based on clear objectives and priorities - don't overthink, keep it as simple as possible)
+
+Digital design is not a coin flipping pseudoscience or a math problem with one correct answer because it's more than aesthetics, typefaces or grids. Digital design is crafting a thoughtful interface, delivering a meaningful experience for the user and driving measurable results.
+
