@@ -1,7 +1,21 @@
 window.onload = function() {
   (function($){
     $("body").addClass("ready");
+    
+    var count = 0;
 
+    function timer(timerVal) {
+      count = count+1;
+      if (count >= timerVal) {
+        clearInterval(counter);
+        $(".progress").empty().text("Completed");
+        return;
+      }
+      $(".progress").text(count+'%')
+    }
+    var counter = setInterval(timer, 100, 100);
+    
+    
     
   })(jQuery);
 }
